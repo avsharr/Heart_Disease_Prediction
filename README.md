@@ -3,15 +3,22 @@ Heart Disease Prediction using Machine Learning
 This project uses various machine learning models to predict the presence of heart disease based on patient data. It includes class balancing with SMOTE, model training, evaluation, and comparison of different algorithms.
 
 
-## 📁 Dataset
-
+📁 Dataset
 - **Name**: `heart-disease.csv`
 - **Target column**: `target` (1 = Disease, 0 = Healthy)
 - **Source**: [UCI Heart Disease Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
 
+🦾 Technologies Used:
+- Python
+- scikit-learn (Logistic Regression, KNN, Random Forest)
+- imbalanced-learn (SMOTE oversampling)
+- pandas, numpy
+- seaborn & matplotlib for data visualization
+- Pipeline for preprocessing
+- Evaluation: confusion matrix, ROC curve, precision-recall curve
+
 
 📊 Workflow
-
 1. Data loading and EDA
 2. Class distribution analysis
 3. Balancing classes with SMOTE
@@ -28,7 +35,6 @@ This project uses various machine learning models to predict the presence of hea
 
 
 📈 Results
-
 - Models were evaluated on accuracy and interpretability.
 - The best-performing model is automatically selected and reported.
 
